@@ -1,3 +1,22 @@
+This Python script implements a number guessing game using object-oriented programming.
+
+Features:
+
+1.Engaging Introduction: Welcomes the player, asks for their name, and sets the stage for the game.
+2.Clear Instructions: Guides the player on how to make guesses.
+3.Feedback: Provides hints if the guess is too high or too low.
+3.Multiple Attempts: Offers up to 6 guesses to find the hidden number.
+4.Victory and Defeat Messages: Congratulates the player on success or reveals the number if they run out of guesses.
+5.Replay Option: Allows the player to start a new game.
+
+Getting Started:
+
+*Save the code: Create a Python file (e.g., number_guessing_game.py) and paste the code into it.
+*Run the script: Open a terminal or command prompt, navigate to the directory containing number_guessing_game.py, and execute python number_guessing_game.py.
+                                                                                     
+Enjoy the game!
+
+
 import random
 import time
 
