@@ -1,6 +1,22 @@
+This code implements a simple chatbot named Bard. Here's a brief breakdown:
 
+1.Greeting Function (greet):
+*Handles greetings ("hi", "hello", "hey") and responds with a welcome message and question.
 
+2.Response Function (respond):
+*Processes user input in lowercase for case-insensitive matching.
+*Handles various user queries through multiple if-elif statements
 
+3.Main Loop:
+*Continuously prompts the user for input ("You: ").
+*Checks for greetings first using greet.
+*If no greeting, uses respond for the general response.
+*Prints Bard's response.
+*Exits the loop if the user types "quit".
+  
+Overall, this code demonstrates a basic framework for a chatbot that can engage in simple conversations and answer pre-defined user queries.
+
+  
 def greet(user_input):
   """Greets the user based on input"""
   if user_input.lower() in ["hi", "hello", "hey"]:
