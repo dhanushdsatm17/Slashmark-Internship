@@ -1,4 +1,4 @@
-This Python script generates strong, random passwords that include a mix of lowercase letters, numbers, and uppercase letters.
+"""This Python script generates strong, random passwords that include a mix of lowercase letters, numbers, and uppercase letters.
 
 Features:
 
@@ -15,7 +15,7 @@ Getting Started:
 Security Note:
 
 1.It is recommended to store passwords securely using a password manager.
-2.Do not share generated passwords with anyone.
+2.Do not share generated passwords with anyone."""
 
 import random
 import string
