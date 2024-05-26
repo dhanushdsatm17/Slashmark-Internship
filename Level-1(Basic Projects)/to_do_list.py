@@ -1,4 +1,4 @@
-Simple To-Do List in Python
+"""Simple To-Do List in Python
 
 This Python script provides a command-line to-do list application with features to:
 
@@ -16,7 +16,7 @@ The program presents a menu with options to manage your to-do list. Simply enter
 *Add a task: Enter the name of the new task to add it to the list.
 *Mark a task as completed: Select a task by its number to mark it as done.
 *Remove a task: Choose a task by its number to delete it from the list.
-*Quit: Exit the program.
+*Quit: Exit the program."""
     
     
     
