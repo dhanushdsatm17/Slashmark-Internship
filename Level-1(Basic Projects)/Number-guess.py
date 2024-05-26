@@ -1,4 +1,4 @@
-This Python script implements a number guessing game using object-oriented programming.
+"""This Python script implements a number guessing game using object-oriented programming.
 
 Features:
 
@@ -14,7 +14,7 @@ Getting Started:
 *Save the code: Create a Python file (e.g., number_guessing_game.py) and paste the code into it.
 *Run the script: Open a terminal or command prompt, navigate to the directory containing number_guessing_game.py, and execute python number_guessing_game.py.
                                                                                      
-Enjoy the game!
+Enjoy the game!"""
 
 
 import random
