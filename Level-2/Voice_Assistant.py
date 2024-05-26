@@ -1,4 +1,4 @@
-This Python code is for a virtual assistant that can be controlled by voice commands. Here's a breakdown of what the code does:
+"""This Python code is for a virtual assistant that can be controlled by voice commands. Here's a breakdown of what the code does:
 
 1.Imports: It starts by importing libraries for speech recognition (speech_recognition), text-to-speech (pyttsx3), web browsing (webbrowser), date and time manipulation (datetime), file operations (os), and making web requests (requests).
 2.Initialization: It creates a recognizer object to listen for audio and convert it to text, and a text-to-speech engine to speak back responses.
@@ -12,7 +12,7 @@ This Python code is for a virtual assistant that can be controlled by voice comm
 *perform_task(query): Takes a recognized voice command (query) and performs different actions based on the keywords in the command. It can open Youtube or Google in the web browser, get the weather for a city, play music, or exit the program.
 4.Main loop: The code starts by speaking a greeting message. Then, it enters a loop that continuously listens for user commands. If a valid command is recognized, it calls the perform_task function to handle the request. The loop continues until the user says "exit".
 
-In summary, this code provides a basic virtual assistant that can respond to voice commands for web browsing, weather information, playing music, and more.
+In summary, this code provides a basic virtual assistant that can respond to voice commands for web browsing, weather information, playing music, and more."""
 
 
 import speech_recognition as sr
