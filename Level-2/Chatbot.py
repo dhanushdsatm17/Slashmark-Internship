@@ -1,4 +1,4 @@
-This code implements a simple chatbot named Bard. Here's a brief breakdown:
+"""This code implements a simple chatbot named Bard. Here's a brief breakdown:
 
 1.Greeting Function (greet):
 *Handles greetings ("hi", "hello", "hey") and responds with a welcome message and question.
@@ -14,7 +14,7 @@ This code implements a simple chatbot named Bard. Here's a brief breakdown:
 *Prints Bard's response.
 *Exits the loop if the user types "quit".
   
-Overall, this code demonstrates a basic framework for a chatbot that can engage in simple conversations and answer pre-defined user queries.
+Overall, this code demonstrates a basic framework for a chatbot that can engage in simple conversations and answer pre-defined user queries."""
 
   
 def greet(user_input):
